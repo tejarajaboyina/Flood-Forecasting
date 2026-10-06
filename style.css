@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+    background: #eef2ff;
+    text-align: center;
+}
+
+.box {
+    margin: 20px auto;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #4f46e5;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4338ca;
+}
+
+canvas {
+    width: 80% !important;
+    height: 400px !important;
+    margin: 30px auto;
+}

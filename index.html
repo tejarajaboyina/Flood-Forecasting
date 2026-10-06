@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flood Risk Predictor</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<h1>Flood Risk Prediction</h1>
+
+<div class="box">
+    <input id="state" placeholder="Enter State (Ex: Andhra Pradesh)">
+    <input id="days" type="number" placeholder="Enter Days (Ex: 30)">
+    <button onclick="getPrediction()">Predict</button>
+</div>
+
+<h2 id="risk"></h2>
+
+<canvas id="graph"></canvas>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
